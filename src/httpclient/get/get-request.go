@@ -7,7 +7,7 @@ import (
 	"net/http"
 )
 
-func get(url string, opt options.Options) string {
+func get(url string, *opt options.Options) string {
 	header := opt.Headers
 	if header["Content-Type"] == "" {
 		header["Content-Type"] = "appliction/json"
