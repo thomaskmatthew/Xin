@@ -1,0 +1,5 @@
+package xin
+
+func xin() {
+
+}
